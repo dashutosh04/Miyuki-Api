@@ -7,7 +7,7 @@ dare
 
 # Usage for truth and dare function
 ```js
-const miyuki = require('./index.js');
+const miyuki = require('miyuki-fun.js');
 const dare = miyuki.dare();
 const truth = miyuki.truth();
 console.log(truth);

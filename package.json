@@ -5,11 +5,11 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {},
-  "scripts": {
-    "test": "node test.js"
-  },
+
   "keywords": [
-    "fun"
+    "fun",
+    "truth",
+    "dare"
   ],
   "repository": {
     "type": "git",
