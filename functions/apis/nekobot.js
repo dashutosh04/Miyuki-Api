@@ -17,7 +17,7 @@ async function Baguette(avatar) {
     return json.message;
 };
 
-async function BlushFact(options = {}) {
+async function BlushFact(Message) {
     if (Message) throw new Error(`No Message`);
     if (Message.length > 1500) throw new Error(`Message Limit: 1500`);
 
