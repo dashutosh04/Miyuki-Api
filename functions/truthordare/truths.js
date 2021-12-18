@@ -1,4 +1,5 @@
-t= `If you could be invisible what’s the first thing you would do?,What’s a secret you kept from your parents?,What’s the most embarrassing music you listen to?,What’s one thing you wish you could change about yourself?,Who is your secret crush?,Who is the last person you creeped on social media?,When was the last time you wet the bed?,If a genie granted you three wishes what would you ask for?,What’s your biggest regret?,If you had to only ever watch rom coms or only watch scary movies for the rest of your life which would you choose?,Where is the weirdest place you've ever gone to the bathroom?,What’s the most food you've ever eaten in a single sitting?,Which player would survive a zombie apocalypse and which would be the first to go?,Reveal all the details of your first kiss.,What excuse have you used before to get out plans?
+t =
+  `If you could be invisible what’s the first thing you would do?,What’s a secret you kept from your parents?,What’s the most embarrassing music you listen to?,What’s one thing you wish you could change about yourself?,Who is your secret crush?,Who is the last person you creeped on social media?,When was the last time you wet the bed?,If a genie granted you three wishes what would you ask for?,What’s your biggest regret?,If you had to only ever watch rom coms or only watch scary movies for the rest of your life which would you choose?,Where is the weirdest place you've ever gone to the bathroom?,What’s the most food you've ever eaten in a single sitting?,Which player would survive a zombie apocalypse and which would be the first to go?,Reveal all the details of your first kiss.,What excuse have you used before to get out plans?
 ,What's the longest you've ever slept?
 ,Read the last thing you sent your best friend or significant other out loud.
 ,What's your biggest pet peeve?
@@ -82,12 +83,16 @@ t= `If you could be invisible what’s the first thing you would do?,What’s a 
 ,Have you ever had an imaginary friend? Describe them.
 ,What gross food combo do you secretly love?
 ,If you could become besties with a celebrity who would it be?
-,What’s the most embarrassing nickname you’ve ever been given?,If you could trade lives with any person you know for a day who would it be?`.split(',')
+,What’s the most embarrassing nickname you’ve ever been given?,If you could trade lives with any person you know for a day who would it be?`.split(
+    ","
+  );
 
-
-function truth(){
-  const netques = [t], question_total = netques[Math.floor(Math.random() * netques.length)], question = question_total[Math.floor(Math.random() * question_total.length)];
+function truth() {
+  const netques = [t],
+    question_total = netques[Math.floor(Math.random() * netques.length)],
+    question =
+      question_total[Math.floor(Math.random() * question_total.length)];
   return question;
 }
 
-module.exports = {truth}
+module.exports = { truth };
