@@ -4,7 +4,7 @@
   "description": "This package provides many fun commands to be used in your discord bot",
   "main": "index.js",
   "dependencies": {
-    "node-fetch": "2.6.6"
+    "node-fetch": "2.6.7"
   },
   "keywords": [
     "fun",
